@@ -1,0 +1,11 @@
+[package]
+name = "watchexec_terminate_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+miette = "7.6.0"
+tokio = { version = "1.45.1", features = ["macros"] }
+watchexec = "8.0.1"
+watchexec-signals = "5.0.0"
